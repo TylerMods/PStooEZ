@@ -1,1 +1,37 @@
-﻿gametitle=Ratchet & Clank: Going Commando (NTSC-U)
+﻿gametitle=Ratchet & Clank: Going Commando (NTSC-U) [SCUS-97268]
+
+[Max Nanotech//control=slider,min=0,max=255,default=255]
+patch=1,EE,001A7A16,extended,000000FF
+
+[Current Nanotech//control=slider,min=0,max=255,default=255]
+patch=1,EE,0018C2EC,extended,000000FF
+
+[Nanotech XP Max]
+patch=1,EE,001A7A14,extended,000000FF
+
+[Big Head Mode]
+patch=1,EE,001A7A40,extended,00000001
+
+[Beach Boy]
+patch=1,EE,001A7A4B,extended,00000001
+
+[Skill Point: 2B Or Not 2B Hit]
+patch=1,EE,001A7A73,extended,00000001
+
+[Skill Point: Be A Moon Child]
+patch=1,EE,001A7A66,extended,00000001
+
+[Skill Point: Vandalize]
+patch=1,EE,001A7A6E,extended,00000001
+
+[Skill Point: Weapon Envy]
+patch=1,EE,001A7A7A,extended,00000001
+
+[Skill Point: Wrench Ninja II]
+patch=1,EE,001A7A72,extended,00000001
+
+[Skill Point: You Can Break A Snow Dan]
+patch=1,EE,001A7A70,extended,00000001
+
+[Skill Point: You're My Hero]
+patch=1,EE,001A7A6A,extended,00000001
