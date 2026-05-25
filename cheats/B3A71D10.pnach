@@ -1,9 +1,12 @@
-gametitle=Ratchet & Clank: Going Commando (NTSC-U) [SCUS-97268]
+﻿gametitle=Ratchet & Clank: Going Commando (NTSC-U) [SCUS-97268]
 // Verified working cheats for SCUS-97268
 // Tested via PStooEZ. CRC: B3A71D10
 
-// ── Nanotech (Verified via memory scan) ───────────────────────────────────────
+// â”€â”€ Nanotech (Verified via memory scan) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
+
+[Lightning Burst//behaviour=loop]
+patch=1,EE,001A7A16,extended,00000001
 [Max Nanotech//control=slider,min=0,max=255,default=255]
 patch=1,EE,001A7A16,extended,000000FF
 
@@ -13,13 +16,13 @@ patch=1,EE,0018C2EC,extended,000000FF
 [Nanotech XP Max]
 patch=1,EE,001A7A14,extended,000000FF
 
-// ── Bolts ─────────────────────────────────────────────────────────────────────
+// â”€â”€ Bolts â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 [Have All Platinum Bolts]
 patch=1,EE,4019B278,extended,000A0001
 patch=1,EE,01010101,extended,00000000
 
-// ── Weapons (Code Master - Have Weapon, value=01) ─────────────────────────────
+// â”€â”€ Weapons (Code Master - Have Weapon, value=01) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 [Have Weapon: Clank Zapper]
 patch=1,EE,001A7B01,extended,00000001
@@ -97,12 +100,12 @@ patch=1,EE,201A7B24,extended,01010101
 patch=1,EE,201A7B28,extended,01010101
 patch=1,EE,201A7B2C,extended,01010101
 
-// ── Items ─────────────────────────────────────────────────────────────────────
+// â”€â”€ Items â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 [Have Item: Armor Magnetizer]
 patch=1,EE,001A7AFF,extended,00000001
 
-// ── Infinite Ammo (Code Master) ───────────────────────────────────────────────
+// â”€â”€ Infinite Ammo (Code Master) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 [Infinite Ammo: Lava Gun]
 patch=1,EE,201396C0,extended,00000014
@@ -119,7 +122,7 @@ patch=1,EE,20139700,extended,0000012C
 [Infinite Ammo: Upgraded Tesla Barrier]
 patch=1,EE,2013973C,extended,00000008
 
-// ── In-Game Cheats ────────────────────────────────────────────────────────────
+// â”€â”€ In-Game Cheats â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 [Big Head Mode]
 patch=1,EE,001A7A40,extended,00000001
@@ -130,7 +133,7 @@ patch=1,EE,001A7A4B,extended,00000001
 [Mirrored Levels]
 patch=1,EE,001A7A44,extended,00000001
 
-// ── Skill Points (all confirmed working) ──────────────────────────────────────
+// â”€â”€ Skill Points (all confirmed working) â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 [Skill Point: 2B Or Not 2B Hit]
 patch=1,EE,001A7A73,extended,00000001
@@ -211,7 +214,7 @@ patch=1,EE,201A7A74,extended,01010101
 patch=1,EE,201A7A78,extended,01010101
 patch=1,EE,201A7A7C,extended,01010101
 
-// ── Combat ────────────────────────────────────────────────────────────────────
+// â”€â”€ Combat â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€â”€
 
 [1 Hit Kill (All Planets)]
 patch=1,EE,200A0000,extended,3C010019
@@ -222,3 +225,4 @@ patch=1,EE,200A0014,extended,10200003
 patch=1,EE,200A001C,extended,AC200020
 patch=1,EE,200A0024,extended,03E00008
 patch=1,EE,2011D1FC,extended,08028000
+
