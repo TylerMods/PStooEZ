@@ -1,0 +1,9 @@
+gametitle=MotorStorm - Arctic Edge
+//60 fps
+//patch=1,EE,2039BAF8,extended,00000001
+
+//Infinite Boost/NOS
+patch=1,EE,2017451C,extended,AE0008DC
+
+//Freeze Timer
+patch=1,EE,2010F770,extended,AE200004

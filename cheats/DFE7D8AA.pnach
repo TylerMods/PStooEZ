@@ -1,0 +1,227 @@
+gametitle=Naruto - Uzumaki Chronicles
+//Enable Code (Must Be On) [Read Note] 
+//FE129B51 800813BF
+patch=1,EE,000FFFFE,extended,0000026E
+patch=1,EE,000FFFFF,extended,0000026E
+//901194D4 0C047A7A
+
+//Infinite Time 
+patch=1,EE,2034D404,extended,00000000
+
+//Naruto Uzumaki Codes
+//Infinite Health 
+patch=1,EE,10350A00,extended,000003E7
+
+//Max Health 
+patch=1,EE,10350A02,extended,000003E7
+
+//Max Infinite Health 
+patch=1,EE,20350A00,extended,03E703E7
+
+//Infinite Stamina 
+patch=1,EE,10350A0E,extended,000003E7
+
+//Max Stamina 
+patch=1,EE,10350A12,extended,000003E7
+
+//Infinite Virtue 
+patch=1,EE,10350A14,extended,0000FFFF
+
+//Max Virtue 
+patch=1,EE,20350A14,extended,0098967F
+
+//Character 2 Codes
+//Infinite Health 
+patch=1,EE,10350A30,extended,000003E7
+
+//Max Health 
+patch=1,EE,10350A32,extended,000003E7
+
+//Max Infinite Health 
+patch=1,EE,20350A30,extended,03E703E7
+
+//Infinite Stamina 
+patch=1,EE,10350A3E,extended,000003E7
+
+//Max Stamina 
+patch=1,EE,10350A42,extended,000003E7
+
+//Infinite Virtue 
+patch=1,EE,10350A44,extended,0000FFFF
+
+//Max Virtue 
+patch=1,EE,20350A44,extended,0098967F
+
+//Character 3 Codes
+//Infinite Health 
+patch=1,EE,10350A60,extended,000003E7
+
+//Max Health 
+patch=1,EE,10350A62,extended,000003E7
+
+//Max Infinite Health 
+patch=1,EE,20350A60,extended,03E703E7
+
+//Infinite Stamina 
+patch=1,EE,10350A6E,extended,000003E7
+
+//Max Stamina 
+patch=1,EE,10350A72,extended,000003E7
+
+//Infinite Virtue 
+patch=1,EE,10350A74,extended,0000FFFF
+
+//Max Virtue 
+patch=1,EE,20350A74,extended,0098967F
+
+//Character 4 Codes
+//Infinite Health 
+patch=1,EE,10350A90,extended,000003E7
+
+//Max Health 
+patch=1,EE,10350A92,extended,000003E7
+
+//Max Infinite Health 
+patch=1,EE,20350A90,extended,03E703E7
+
+//Infinite Stamina 
+patch=1,EE,10350A9E,extended,000003E7
+
+//Max Stamina 
+patch=1,EE,10350AA2,extended,000003E7
+
+//Infinite Virtue 
+patch=1,EE,10350AA4,extended,0000FFFF
+
+//Max Virtue 
+patch=1,EE,20350AA4,extended,0098967F
+
+//Character 5 Codes
+//Infinite Health 
+patch=1,EE,10350AC0,extended,000003E7
+
+//Max Health 
+patch=1,EE,10350AC2,extended,000003E7
+
+//Max Infinite Health 
+patch=1,EE,20350AC0,extended,03E703E7
+
+//Infinite Stamina 
+patch=1,EE,10350ACE,extended,000003E7
+
+//Max Stamina 
+patch=1,EE,10350AD2,extended,000003E7
+
+//Infinite Virtue 
+patch=1,EE,10350AD4,extended,0000FFFF
+
+//Max Virtue 
+patch=1,EE,20350AD4,extended,0098967F
+
+//Max Item Codes
+//Medicine C 
+patch=1,EE,00350B6D,extended,00000063
+
+//Medicine B 
+patch=1,EE,00350B6E,extended,00000063
+
+//Medicine A 
+patch=1,EE,00350B6F,extended,00000063
+
+//Medicine X 
+patch=1,EE,00350B70,extended,00000063
+
+//Rations C 
+patch=1,EE,00350B71,extended,00000063
+
+//Rations B 
+patch=1,EE,00350B72,extended,00000063
+
+//Rations A 
+patch=1,EE,00350B73,extended,00000063
+
+//Rations X 
+patch=1,EE,00350B74,extended,00000063
+
+//Duals C 
+patch=1,EE,00350B75,extended,00000063
+
+//Duals B 
+patch=1,EE,00350B76,extended,00000063
+
+//Duals A 
+patch=1,EE,00350B77,extended,00000063
+
+//Duals X 
+patch=1,EE,00350B78,extended,00000063
+
+//Mineral 
+patch=1,EE,00350BAB,extended,00000063
+
+//All Items 
+patch=1,EE,00350B6D,extended,00000063
+patch=1,EE,10350B6E,extended,00006363
+patch=1,EE,20350B70,extended,63636363
+patch=1,EE,20350B74,extended,63636363
+patch=1,EE,00350B78,extended,00000063
+patch=1,EE,00350BAB,extended,00000063
+
+//Max Equip Attack Item Codes
+//Kunai Knife 
+patch=1,EE,00350BAC,extended,00000009
+
+//5-Way Kunai 
+patch=1,EE,00350BAD,extended,00000009
+
+//3-Way Kunai 
+patch=1,EE,00350BAE,extended,00000009
+
+//Twin-Edge Kunai 
+patch=1,EE,00350BAF,extended,00000009
+
+//Fire Kunai 
+patch=1,EE,00350BB0,extended,00000009
+
+//Shuriken 
+patch=1,EE,00350BB1,extended,00000009
+
+//3-Way Shuriken 
+patch=1,EE,00350BB2,extended,00000009
+
+//6-Way Shuriken 
+patch=1,EE,00350BB3,extended,00000009
+
+//Fire Bomb 
+patch=1,EE,00350BB4,extended,00000009
+
+//3-Way Fire Bomb 
+patch=1,EE,00350BB5,extended,00000009
+
+//8-Way Fire Bomb 
+patch=1,EE,00350BB6,extended,00000009
+
+//Fire Blossom 
+patch=1,EE,00350BB7,extended,00000009
+
+//Flash Bomb 
+patch=1,EE,00350BB8,extended,00000009
+
+//4-Way Flash Bomb 
+patch=1,EE,00350BB9,extended,00000009
+
+//Flyer 
+patch=1,EE,00350BBA,extended,00000009
+
+//Kunai 
+patch=1,EE,00350BBB,extended,00000009
+
+//Silver Kunai 
+patch=1,EE,00350BBC,extended,00000009
+
+//Gold Kunai 
+patch=1,EE,00350BBD,extended,00000009
+
+//All Equip Attack Items 
+patch=1,EE,40350BAC,extended,00040001
+patch=1,EE,09090909,extended,00000000
+patch=1,EE,10350BBC,extended,00000909
